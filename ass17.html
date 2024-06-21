@@ -4,6 +4,7 @@
 <head>
     <title>Assignment 17 flex properties</title>
     <style>
+        
         .profile-container{
      
             background-color: rgb(224, 201, 170);
@@ -25,8 +26,16 @@
             margin-top: 10px;
             margin-bottom: 90px;
             margin: 10px;
-          
         }
+            .profile-container{
+             display: flex;
+             justify-content: space-between;
+             align-items: end;
+             color: rgb(27, 19, 19);
+             margin: 5px 0;                ;
+            }
+          
+        
         .profile-pic{
             height: 80px;
             background-color: white;
@@ -36,11 +45,16 @@
             left: 60px;
             top: -auto;
         }
+        .profile-container{
+       
+            display: flex;
+            justify-content: space-evenly;
+            align-content: start;
+        }
         .profile-name{
            text-align: left;
-           
-            position: relative;
-            bottom: 30px;
+           position: relative;
+           bottom: 30px;
         }
     </style>
 </head>
